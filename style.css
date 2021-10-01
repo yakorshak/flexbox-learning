@@ -1,0 +1,245 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body {
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+.hi {
+    background-color: #445162;
+    padding: 50px 0;
+}
+.hi__row {
+    display: flex;
+    justify-content: space-between;
+}
+.hi__body {
+    color: #fff;
+}
+.hi__title {
+    font-size: 60px;
+    text-shadow: 1px 1px 0 rgba(0, 0 , 0, 0.3);
+    margin: 0 0 38px 0;
+}
+.hi__list{
+    line-height: 1.85;
+}
+
+.hi__list li {
+    background: url(img/icons/icon.png) left no-repeat;
+    text-shadow: 1px 1px 0 rgba(0, 0 , 0, 0.3);
+    font-size: 20px;
+    padding: 0 0 0 36px;
+}
+.hi__image {}
+
+/* WHAT */
+
+.what {
+    max-height: 290px;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.what__row {
+    display: flex;
+}
+
+.title {
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.what__image {
+    flex: 0 0 430px;
+}
+
+.what__image img {
+    max-width: 430px;
+}
+
+.what__body{
+    flex: 1 1 auto;
+    padding-left: 38px;
+}
+
+
+.what__text p {
+    margin-top: 33px;
+    color: #333333;
+
+}
+
+.what__text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Columns */
+
+.column{
+    background-color: #f5f5f5;
+    padding: 50px 0 20px 0;
+}
+.column__title h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.column__row{
+    display: flex;
+}
+.column__left{
+    max-width: 50%;
+    padding-right: 16px;
+}
+.column__right{
+    max-width: 50%;
+    padding-right: 16px;
+}
+.column__body{
+    display: flex;
+    padding-bottom: 30px;
+}
+.column__img img{
+    flex: 0 0 200px;
+}
+.column__text{
+    padding-left: 14px;
+}
+.column__subtitle{
+    font-size: 24px;
+    color: #445161;
+    margin-bottom: 15px;
+}
+.column__paragraph{
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4em;
+}
+
+/* Vertical */
+
+.vertical{
+    padding: 50px 0;
+}
+.vertical__title{
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+}
+
+.vertical__body{
+    max-width: 990px;
+    margin: 0px auto;
+}
+
+.vertical__column{
+    flex: 0 1 33.333%;
+    padding: 0px 22.5px;
+    display: flex;
+}
+
+.vertical__row{
+    display: flex;
+    margin: 0px -22.5px;
+}
+.vertical__item{
+    background-color: #445162;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #445162;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.vertical__subtitle{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 12.5px 0;
+}
+.vertical__label{
+    text-align: center;
+    background-color: #fff;
+    color: #445162;
+    padding: 15px 0;
+    font-size: 40px;
+}
+.vertical__text{
+    padding: 20px;
+    color: #fff;
+    color: #fff;
+    line-height: 24px;
+    flex: 1 1 auto;
+}
+
+.vertical__text p{
+
+    margin: 0 0 15px 0;
+}
+
+.vertical__text p:last-child{
+margin: 0;
+}
+
+.vertical__button{
+    display: block;
+    height: 40px;
+    margin: 0 20px;
+    background-color: #fff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+
+.footer {
+    background-color: #f5f5f5;  
+}
+.footer__row {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text {
+    font-size: 12px;
+    color: #445162;
+    letter-spacing: 0.3px;
+}
